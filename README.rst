@@ -29,5 +29,5 @@ Saha, S.; Cooksey, A.M.; Childers, A.K.; Poelchau, M.F.; McCarthy, F.M. Workflow
 
     As both GOanna and InterProScan provide GO annotations, their outputs are provided in GAF format. The **'Combine GAFs'** tool can then be used to make a single GAF of GO annotations, if desired. 
 
-.. |workflow| image:: img/i5k_workflow_diagram.png
+.. |workflow| image:: i5k_workflow_diagram.png
   :width: 700
