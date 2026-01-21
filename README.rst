@@ -9,9 +9,9 @@ This functional annotation workflow employs three annotation tools:
 
 1. `GOanna <https://github.com/AgBase/GOanna>`_: It performs a BLAST search and transfers gene ontology (GO) annotations from BLAST matches to the query gene products. 
 
-2. **InterProScan:** InterPro is a database which integrates together predictive information about proteins' function from a number of partner resources, giving an overview of the families that a protein belongs to and the domains and sites it contains. InterProScan can also provide GO and pathway annotations.
+2. `InterProScan <https://github.com/AgBase/InterProScan>`_ InterPro is a database which integrates together predictive information about proteins' function from a number of partner resources, giving an overview of the families that a protein belongs to and the domains and sites it contains. InterProScan can also provide GO and pathway annotations.
 
-3. **Pathannotator:** Annotates to KEGG, FlyBase and Reactome pathways.
+3. `Pathannotator <https://github.com/AgBase/pathannotator>`_ Annotates to KEGG, FlyBase and Reactome pathways.
 
 Results and analysis from the application of this functional annotation workflow to the Official gene set v3.0 protein set from *Diaphorina citri* followed by a differential expression analysis was presented at a seminar in the University of Arizona Animal and Comparative Biomedical Sciences in Fall 2020. The `slides <https://www.slideshare.net/suryasaha/functional-annotation-of-invertebrate-genomes>`_ and `video <https://arizona.zoom.us/rec/play/tZZ-fuutrj43T9fBtASDAaR9W9S0fP6s1XQbrvQOz0e0VnYHYVL1MOMaZ-F4v45qOmXQkV1MUXQ7tufD>`_ are available online.
 
@@ -27,7 +27,7 @@ Saha, S.; Cooksey, A.M.; Childers, A.K.; Poelchau, M.F.; McCarthy, F.M. Workflow
 
 .. NOTE:: 
 
-    As both GOanna and InterProScan provide GO annotations, their outputs are provided in GAF format. The **'Combine GAFs'** tool can then be used to make a single GAF of GO annotations, if desired. 
+    As both GOanna and InterProScan provide GO annotations, their outputs are provided in GAF format. The `Combine GAFs <https://github.com/AgBase/combine_GAFs>`_ tool can then be used to make a single GAF of GO annotations, if desired. 
 
 .. |workflow| image:: i5k_workflow_diagram.png
   :width: 700
