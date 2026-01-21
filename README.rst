@@ -7,7 +7,7 @@
 This functional annotation workflow employs three annotation tools:
 
 
-1. **GOanna:** It performs a BLAST search and transfers gene ontology (GO) annotations from BLAST matches to the query gene products. 
+1. **`GOanna <https://github.com/AgBase/GOanna>`_:** It performs a BLAST search and transfers gene ontology (GO) annotations from BLAST matches to the query gene products. 
 
 2. **InterProScan:** InterPro is a database which integrates together predictive information about proteins' function from a number of partner resources, giving an overview of the families that a protein belongs to and the domains and sites it contains. InterProScan can also provide GO and pathway annotations.
 
